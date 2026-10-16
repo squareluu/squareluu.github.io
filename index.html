@@ -3,18 +3,20 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="SQUAREL — Systems Quality & Requirements Lab">
+  <meta name="description" content="SQUAREL — Systems Quality & Requirements Lab at Uppsala University">
   <title>SQUAREL | Systems Quality & Requirements Lab</title>
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
 
   <header class="site-header">
     <div class="container header-inner">
       <a class="brand" href="#top" aria-label="SQUAREL home">
-        <img src="Logo_Squarel.png" alt="SQUAREL">
+        <img src="Logo_Squarel.png" alt="SQUAREL — Systems Quality & Requirements Lab">
       </a>
+
       <nav class="site-nav" aria-label="Primary navigation">
         <a href="#about">About</a>
         <a href="#research">Research</a>
@@ -26,6 +28,7 @@
   </header>
 
   <main id="main">
+    <!-- HERO -->
     <section class="hero" id="top">
       <div class="container hero-grid">
         <div class="hero-copy">
@@ -33,12 +36,15 @@
           <h1>SQUAREL</h1>
           <p class="hero-subtitle">Systems Quality &amp; Requirements Lab</p>
           <p class="hero-text">
-            We conduct interdisciplinary research to understand stakeholder needs and develop solutions that contribute to high-quality and sustainable software systems to address complex
-            challenges across diverse domains.
-            
+            We conduct interdisciplinary research to understand stakeholder needs
+            and develop solutions that contribute to high-quality and sustainable
+            software systems across diverse domains.
           </p>
+
           <div class="hero-actions">
-            <a class="button primary" href="#research">Explore our research <span>→</span></a>
+            <a class="button primary" href="#research">
+              Explore our research <span aria-hidden="true">→</span>
+            </a>
             <a class="button secondary" href="#people">Meet the team</a>
           </div>
         </div>
@@ -51,81 +57,90 @@
       </div>
     </section>
 
+    <!-- ABOUT -->
     <section class="section about-section" id="about">
-      <div class="container">
-        <div class="section-title-row">
-          <div>
-            <p class="section-kicker">About</p>
-            <h2>Research centred on people, quality, and long-term value.</h2>
-          </div>
+      <div class="container section-grid">
+        <div class="section-intro">
+          <p class="section-kicker">About</p>
+          <h2>Research centred on people, quality, and long-term value.</h2>
         </div>
 
-        <div>
+        <div class="about-copy">
           <p>
             Our work spans software engineering, requirements engineering,
-            human-computer interaction, sustainability, systems and software quality,
+            human–computer interaction, sustainability, systems and software quality,
             and health informatics.
           </p>
         </div>
       </div>
     </section>
 
-<section class="section featured-section" id="research">
-  <div class="container">
-    <div class="section-title-row">
-      <div>
-        <p class="section-kicker">Research focus</p>
-        <h2>Featured research areas</h2>
+    <!-- RESEARCH -->
+    <section class="section featured-section" id="research">
+      <div class="container">
+        <div class="section-title-row">
+          <div>
+            <p class="section-kicker">Research focus</p>
+            <h2>Featured research areas</h2>
+          </div>
+        </div>
+
+        <div class="featured-grid">
+          <article class="featured-card">
+            <div class="featured-copy">
+              <span class="type-label">Research area</span>
+              <h3>Sustainability in Software Systems</h3>
+              <p>
+                Investigating how sustainability can be systematically integrated
+                into software systems, from requirements and design to quality evaluation.
+              </p>
+
+              <div class="tags" aria-label="Related research themes">
+                <span class="tag">Sustainability</span>
+                <span class="tag">Requirements Engineering</span>
+                <span class="tag">Software Quality</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="featured-card">
+            <div class="featured-copy">
+              <span class="type-label">Research area</span>
+              <h3>Human–AI Interaction</h3>
+              <p>
+                Examining how people interact with AI-enabled systems and how their
+                quality in use can be assessed and improved.
+              </p>
+
+              <div class="tags" aria-label="Related research themes">
+                <span class="tag">Artificial Intelligence</span>
+                <span class="tag">HCI</span>
+                <span class="tag">Quality in Use</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="featured-card">
+            <div class="featured-copy">
+              <span class="type-label">Research area</span>
+              <h3>Connected Health</h3>
+              <p>
+                Combining requirements engineering and human-centred approaches to
+                design and evaluate high-quality and sustainable connected health systems.
+              </p>
+
+              <div class="tags" aria-label="Related research themes">
+                <span class="tag">Health Informatics</span>
+                <span class="tag">Requirements Engineering</span>
+                <span class="tag">HCI</span>
+              </div>
+            </div>
+          </article>
+        </div>
       </div>
-    </div>
+    </section>
 
-    <div class="featured-grid">
-      <article class="featured-card">
-        <div class="featured-copy">
-          <span class="type-label">Research area</span>
-          <h3>Sustainability in Software Systems</h3>
-          <p>
-            Investigating how sustainability can be systematically integrated into
-            software systems, from requirements and design to quality evaluation.
-          </p>
-          <span class="tag">
-            Sustainability &amp; Requirements Engineering &amp; Software Quality
-          </span>
-        </div>
-      </article>
-
-      <article class="featured-card">
-        <div class="featured-copy">
-          <span class="type-label">Research area</span>
-          <h3>Human–AI Interaction</h3>
-          <p>
-            Examining how people interact with AI-enabled systems and how their
-            quality in use can be assessed and improved.
-          </p>
-          <span class="tag">
-            Artificial Intelligence &amp; HCI &amp; Quality in Use
-          </span>
-        </div>
-      </article>
-
-      <article class="featured-card">
-        <div class="featured-copy">
-          <span class="type-label">Research area</span>
-          <h3>Connected Health</h3>
-          <p>
-            Combining requirements engineering and human-centred approaches to
-            design and evaluate high-quality and sustainable connected health systems.
-          </p>
-          <span class="tag">
-            Health Informatics &amp; Requirements Engineering &amp; HCI
-          </span>
-        </div>
-      </article>
-    </div>
-  </div>
-</section>
-    
-    
+    <!-- PEOPLE -->
     <section class="section soft people-section" id="people">
       <div class="container">
         <div class="section-title-row">
@@ -137,112 +152,142 @@
 
         <div class="people-row">
           <article class="person-card">
-            <div class="avatar">R</div>
+            <div class="avatar" aria-hidden="true">SO</div>
             <div>
-              <h3> 
-                <a href="https://www.uu.se/en/contact-and-organisation/staff?query=N22-2414" target="_blank">Sofia Ouhbi</a>
+              <h3>
+                <a href="https://www.uu.se/en/contact-and-organisation/staff?query=N22-2414"
+                   target="_blank" rel="noopener noreferrer">
+                  Sofia Ouhbi
+                </a>
               </h3>
-              <p>Associate Professor</p>
-               <p>Coordinator and Researcher</p>
+              <p class="person-title">Associate Professor</p>
+              <p class="person-role">Coordinator · Researcher</p>
             </div>
           </article>
 
           <article class="person-card">
-            <div class="avatar">R</div>
+            <div class="avatar" aria-hidden="true">JG</div>
             <div>
               <h3>
-                 <a href="https://www.uu.se/en/contact-and-organisation/staff?query=N22-150" target="_blank">Jennifer Gross </a>
+                <a href="https://www.uu.se/en/contact-and-organisation/staff?query=N22-150"
+                   target="_blank" rel="noopener noreferrer">
+                  Jennifer Gross
+                </a>
               </h3>
-              <p>PhD student</p>
-              <p>Reseracher</p>
+              <p class="person-title">PhD Student</p>
+              <p class="person-role">Researcher</p>
             </div>
           </article>
 
           <article class="person-card">
-            <div class="avatar">R</div>
+            <div class="avatar" aria-hidden="true">SP</div>
             <div>
               <h3>
-                <a href="https://www.uu.se/en/contact-and-organisation/staff?query=N15-172" target="_blank">Shweta Premanandan</a>
+                <a href="https://www.uu.se/en/contact-and-organisation/staff?query=N15-172"
+                   target="_blank" rel="noopener noreferrer">
+                  Shweta Premanandan
+                </a>
               </h3>
-              <p>Postdoc</p>
-              <p>Researcher</p>
+              <p class="person-title">Postdoctoral Researcher</p>
+              <p class="person-role">Researcher</p>
             </div>
           </article>
 
-           <article class="person-card">
-            <div class="avatar">R</div>
+          <article class="person-card">
+            <div class="avatar" aria-hidden="true">SM</div>
             <div>
               <h3>
-                <a href="https://www.uu.se/en/contact-and-organisation/staff?query=N21-1780" target="_blank">Sylvia Martin</a>
+                <a href="https://www.uu.se/en/contact-and-organisation/staff?query=N21-1780"
+                   target="_blank" rel="noopener noreferrer">
+                  Sylvia Martin
+                </a>
               </h3>
-              <p>Associate Professor</p>
-              <p>Researcher</p>
+              <p class="person-title">Associate Professor</p>
+              <p class="person-role">Researcher</p>
             </div>
           </article>
-          
         </div>
       </div>
     </section>
 
+    <!-- NEWS + CONTACT -->
     <section class="section lower-section" id="news">
       <div class="container lower-grid">
-        <div class="panel news-panel">
+        <section class="panel news-panel" aria-labelledby="news-heading">
           <div class="panel-heading">
-            <h2>Latest news</h2>
+            <p class="section-kicker">Updates</p>
+            <h2 id="news-heading">Latest news</h2>
           </div>
 
           <div class="news-list">
             <article class="news-item">
               <time datetime="2026-09">Sep 2026</time>
               <div>
-                <h3>Welcome to SQUAREL</h3>
-                <p>Welcoming supervising of Master theses for Spring 2026.</p>
+                <h3>Master's thesis opportunities</h3>
+                <p>We welcome master's thesis projects for Spring 2026.</p>
               </div>
             </article>
 
             <article class="news-item">
               <time datetime="2026-08">Aug 2026</time>
               <div>
-                <h3>New research update</h3>
-                <p>A preprint of our study "A Quality-in-Use Scenario-Based Evaluation of the Use of Large Language Models for Emotional Support" is availble here: <a href="https://doi.org/10.2139/ssrn.7305440" target="_blank">https://doi.org/10.2139/ssrn.7305440</a> </p>
+                <h3>New preprint available</h3>
+                <p>
+                  Our study
+                  <em>A Quality-in-Use Scenario-Based Evaluation of the Use of Large Language Models for Emotional Support</em>
+                  is available as a preprint.
+                  <a href="https://doi.org/10.2139/ssrn.7305440"
+                     target="_blank" rel="noopener noreferrer">
+                    Read the preprint
+                  </a>.
+                </p>
               </div>
             </article>
           </div>
-         </div>
-        
-        <div class="panel contact-panel" id="contact">
+        </section>
+
+        <section class="panel contact-panel" id="contact" aria-labelledby="contact-heading">
           <div class="panel-heading">
-            <h2>Get in touch</h2>
+            <p class="section-kicker">Contact</p>
+            <h2 id="contact-heading">Get in touch</h2>
+            <p class="contact-intro">
+              We welcome conversations about research collaboration,
+              student projects, and related academic activities.
+            </p>
           </div>
 
           <div class="contact-list">
             <div>
+              <span class="contact-symbol" aria-hidden="true">✉</span>
+              <a href="mailto:sofia.ouhbi@it.uu.se">sofia.ouhbi@it.uu.se</a>
             </div>
 
             <div>
-              <span class="contact-symbol">⌖</span>
+              <span class="contact-symbol" aria-hidden="true">⌖</span>
               <span>Uppsala University</span>
             </div>
 
             <div>
-              <span class="contact-symbol">◎</span>
+              <span class="contact-symbol" aria-hidden="true">◎</span>
               <span>Uppsala, Sweden</span>
             </div>
           </div>
 
-<div class="campus-art" aria-hidden="true">
-  <img
-    src="uu.png"
-    alt=""
-    class="campus-image"
-  >
-</div>
+          <div class="campus-art" aria-hidden="true">
+            <img
+              src="uu.png"
+              alt=""
+              class="campus-image"
+              loading="lazy"
+              decoding="async"
+            >
           </div>
-        </div>
+        </section>
       </div>
     </section>
   </main>
 
+  <!-- FOOTER -->
   <footer class="site-footer">
     <div class="container footer-grid">
       <div class="footer-brand">
@@ -255,22 +300,22 @@
         <a href="#about">About</a>
         <a href="#research">Research</a>
         <a href="#people">People</a>
+        <a href="#news">News</a>
       </div>
 
       <div>
         <h3>Connect</h3>
-        <a href="https://www.linkedin.com/company/squarel-–-systems-quality-and-requirements-lab/">LinkedIn</a>
+        <a href="https://www.linkedin.com/company/squarel-%E2%80%93-systems-quality-and-requirements-lab/"
+           target="_blank" rel="noopener noreferrer">
+          LinkedIn
+        </a>
         <a href="mailto:sofia.ouhbi@it.uu.se">Email</a>
       </div>
-      
-     <div>
-     </div>
-      
+
       <div class="affiliation">
-        <div class="crest">S</div>
         <p>
-          Affiliated with<br>
-          <strong>Dept. Information Technology</strong><br>
+          <span>Affiliated with</span><br>
+          <strong>Department of Information Technology</strong><br>
           Uppsala University
         </p>
       </div>
