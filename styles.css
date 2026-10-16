@@ -132,33 +132,27 @@ a{color:inherit}
   font-weight:800;
 }
 
-/* Minimal Uppsala University line illustration */
-.campus-art{
-  position:absolute;
-  right:0;
-  bottom:0;
-  width:48%;
-  height:78%;
-  display:flex;
-  align-items:flex-end;
-  justify-content:center;
-  overflow:hidden;
-  background:transparent;
-  pointer-events:none;
+/* Uppsala University image */
+.campus-art {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+  height: 82%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  overflow: hidden;
+  background: #fff;
+  pointer-events: none;
 }
 
-.campus-illustration{
-  width:95%;
-  height:auto;
-  max-height:92%;
-  color:#8CA5B8;
-  opacity:.55;
-}
-
-.campus-illustration *{
-  stroke:currentColor;
-  stroke-width:1.6;
-  vector-effect:non-scaling-stroke;
+.campus-image {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: contain;
+  object-position: right bottom;
 }
 
 /* footer */
@@ -177,10 +171,11 @@ a{color:inherit}
   .theme-grid,.featured-grid,.people-row{grid-template-columns:1fr}.contact-list{width:60%}
   .footer-grid{grid-template-columns:1fr 1fr}.footer-brand{grid-column:span 2}
 }
+
 @media(max-width:520px){
   .container{width:min(calc(100% - 28px),var(--container))}.brand{width:145px}.brand img{width:145px;height:48px}
   .hero-copy{padding:45px 0 18px}.hero h1{font-size:3rem}.featured-card{grid-template-columns:1fr}.mini-visual{width:100%;height:130px}
-  .contact-panel{min-height:390px}.contact-list{width:100%;padding-right:22px}.campus-art{width:100%;height:40%;opacity:.75}
+   .contact-panel {min-height: 430px;}.contact-list {width: 100%;padding-right: 22px;}.campus-art{width: 100%;height: 42%;right: 0;bottom: 0;}.campus-image {object-position: center bottom;}}
   .footer-grid{grid-template-columns:1fr}.footer-brand,.affiliation{grid-column:auto}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
